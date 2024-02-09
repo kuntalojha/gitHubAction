@@ -2,7 +2,7 @@ on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
-    container: 21-alpine3.18
+    container: node:21-alpine3.18
     steps:
       - run: node --version
       - run: npm --version
